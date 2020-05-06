@@ -1,0 +1,362 @@
+[
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.14277465641498566
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.14277465641498566
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.1326865404844284
+    }
+  },
+  {
+    "text": "good evening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.1326865404844284
+    }
+  },
+  {
+    "text": "hey",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.14277465641498566
+    }
+  },
+  {
+    "text": "Can I see the custom resource",
+    "intent": "retrieve",
+    "intent_prediction": {
+      "name": "tutorial",
+      "confidence": 0.1613757163286209
+    }
+  },
+  {
+    "text": "Can I see the spec",
+    "intent": "retrieve",
+    "intent_prediction": {
+      "name": "tutorial",
+      "confidence": 0.17662736773490906
+    }
+  },
+  {
+    "text": "Can I know more about [kubernetes] (technology)",
+    "intent": "tutorial",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.158415749669075
+    }
+  },
+  {
+    "text": "I want some resources to learn more about [gke] (technology)",
+    "intent": "tutorial",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.15992264449596405
+    }
+  },
+  {
+    "text": "what is a [custom resource] (technology)",
+    "intent": "tutorial",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.1605059951543808
+    }
+  },
+  {
+    "text": "gcp",
+    "intent": "inputValue",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.14277465641498566
+    }
+  },
+  {
+    "text": "aws",
+    "intent": "inputValue",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.14277465641498566
+    }
+  },
+  {
+    "text": "eks",
+    "intent": "inputValue",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.14277465641498566
+    }
+  },
+  {
+    "text": "I wish to add to my spec",
+    "intent": "setConfig",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.16125427186489105
+    }
+  },
+  {
+    "text": "I want to set an attribute in the custom resource",
+    "intent": "setConfig",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.16181203722953796
+    }
+  },
+  {
+    "text": "add to my cr spec",
+    "intent": "setConfig",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.1576370745897293
+    }
+  },
+  {
+    "text": "set an attribute",
+    "intent": "setConfig",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.13947652280330658
+    }
+  },
+  {
+    "text": "i want to change my cr",
+    "intent": "setConfig",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.16049396991729736
+    }
+  },
+  {
+    "text": "i want to edit my cr",
+    "intent": "setConfig",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.16049396991729736
+    }
+  },
+  {
+    "text": "i want to change to my spec",
+    "intent": "setConfig",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.16161733865737915
+    }
+  },
+  {
+    "text": "i want to edit my spec",
+    "intent": "setConfig",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.16049396991729736
+    }
+  },
+  {
+    "text": "check all preflight",
+    "intent": "doPreflight",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.14672695100307465
+    }
+  },
+  {
+    "text": "do all preflight checks",
+    "intent": "doPreflight",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.15319275856018066
+    }
+  },
+  {
+    "text": "do all checks before deployment",
+    "intent": "doPreflight",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.15760265290737152
+    }
+  },
+  {
+    "text": "will qliksense deploy properly?",
+    "intent": "doPreflight",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.14869073033332825
+    }
+  },
+  {
+    "text": "check application before deploying",
+    "intent": "doPreflight",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.14869073033332825
+    }
+  },
+  {
+    "text": "check qliksense before deploying",
+    "intent": "doPreflight",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.14869073033332825
+    }
+  },
+  {
+    "text": "do the deployments preflight check",
+    "intent": "doPreflight",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.15400363504886627
+    }
+  },
+  {
+    "text": "check deployment preflight",
+    "intent": "doPreflight",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.13947652280330658
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.14277465641498566
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.14277465641498566
+    }
+  },
+  {
+    "text": "see you around",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.13947652280330658
+    }
+  },
+  {
+    "text": "see you later",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.13947652280330658
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.1326865404844284
+    }
+  },
+  {
+    "text": "that sounds good",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.13947652280330658
+    }
+  },
+  {
+    "text": "no",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.14277465641498566
+    }
+  },
+  {
+    "text": "never",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.14277465641498566
+    }
+  },
+  {
+    "text": "I don't think so",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.15171419084072113
+    }
+  },
+  {
+    "text": "don't like that",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.14869073033332825
+    }
+  },
+  {
+    "text": "no way",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.1326865404844284
+    }
+  },
+  {
+    "text": "not really",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.1326865404844284
+    }
+  },
+  {
+    "text": "are you a bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.14869073033332825
+    }
+  },
+  {
+    "text": "are you a human?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.14869073033332825
+    }
+  },
+  {
+    "text": "am I talking to a bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.17266783118247986
+    }
+  },
+  {
+    "text": "am I talking to a human?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "retrieve",
+      "confidence": 0.17266783118247986
+    }
+  }
+]

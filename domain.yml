@@ -1,0 +1,83 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - retrieve
+  - setConfig
+  - inputKey
+  - inputValue
+  - doPreflight
+  - notifications
+  - EXTERNAL_reminder
+  - cancel_notif
+
+entities:
+  - cluster_element
+  - context
+  - technology
+  - key
+  - value
+  - preflight
+  - name
+
+forms:
+- attribute_form
+
+slots:
+  cluster_element:
+    type: unfeaturized
+  context:
+    type: unfeaturized
+  technology:
+    type: unfeaturized
+  key:
+    type: unfeaturized
+  value: 
+    type: unfeaturized
+  preflight:
+    type: unfeaturized
+  name:
+    type: unfeaturized
+
+responses:
+  utter_greet:
+  - text: "Hi, im your QlikSense on Kubernetes bot! How can I help you today?"
+  - text: "Hi, hope your day is going great! I'm the QlikSense on Kubernetes bot! How can I help you today?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+  
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  utter_ask_key:
+  - text: "Please Input Key for the attribute you want to add:"
+  utter_ask_value:
+  - text: "Please Input Value for the associated key you want to add: "
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+- actionInsight
+- utter_ask_key
+- utter_ask_value
+- preflightChecks
+- helloAction
+- action_set_reminder 
+- action_react_to_reminder
+- action_forget_reminders

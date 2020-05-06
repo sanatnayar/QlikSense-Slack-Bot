@@ -1,0 +1,10 @@
+apiVersion: config.qlik.com/v1
+kind: PreflightConfig
+metadata:
+  name: PreflightConfigMetadata
+spec:
+  images:
+    mongo: mongo
+    netcat: subfuzion/netcat
+    nginx: nginx
+  minK8sVersion: "1.15"

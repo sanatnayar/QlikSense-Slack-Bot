@@ -1,0 +1,29 @@
+[
+  {
+    "text": "I want to set an attribute in the custom resource",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 34,
+        "end": 49,
+        "value": "CR",
+        "entity": "cluster_element",
+        "confidence": 0.7789215032619745,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cluster_element",
+        "start": 34,
+        "end": 49,
+        "extractor": "DIETClassifier",
+        "value": "CR",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

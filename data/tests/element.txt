@@ -1,0 +1,9 @@
+cr
+crd
+custom resource
+all
+list
+custom resource definition
+deployment spec
+spec
+CR
